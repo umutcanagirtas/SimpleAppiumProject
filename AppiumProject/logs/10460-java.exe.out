@@ -1,0 +1,71 @@
+{"logLevel":"debug","message":"multithreading is set to false"}
+{"logLevel":"debug","message":"Using reflection to scan dependencies for gauge implementations..."}
+log4j:WARN No appenders could be found for logger (io.grpc.netty.shaded.io.netty.util.internal.logging.InternalLoggerFactory).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+{"logLevel":"debug","message":"gauge-java took 1596milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value."}
+{"logLevel":"debug","message":"run 'gauge config runner_connection_timeout' and verify that it is < 1596"}
+{"logLevel":"debug","message":"starting gRPC server..."}
+{"logLevel":"debug","message":"started gRPC server on port 60843"}
+{"logLevel":"info","message":"Listening on port:60843"}
+{"logLevel":"debug","message":"Scanning packages for steps"}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.clickCalendarToPickADay' and 'StepImplementation.clickCalendarToPickADay'"}
+{"logLevel":"debug","message":"Found Pick A Day For The Flight in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.clickSearchAreaAndSendKeysItemAndSelectItemToSaw' and 'StepImplementation.clickSearchAreaAndSendKeysItemAndSelectItemToSaw'"}
+{"logLevel":"debug","message":"Found Search {} And Select Them For From Option in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.clickFirstFlight' and 'StepImplementation.clickFirstFlight'"}
+{"logLevel":"debug","message":"Found Select First List To Flight's List in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.clickContinue' and 'StepImplementation.clickContinue'"}
+{"logLevel":"debug","message":"Found And Click Continue in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.clickSearchAreaAndSendKeysItemAndSelectItemToEsb' and 'StepImplementation.clickSearchAreaAndSendKeysItemAndSelectItemToEsb'"}
+{"logLevel":"debug","message":"Found Search {} And Select Them For To Option in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.clickSearchAFlight' and 'StepImplementation.clickSearchAFlight'"}
+{"logLevel":"debug","message":"Found Search A Flight With Your Selections in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.acceptCookiesDenyButtonAttentionClick' and 'StepImplementation.acceptCookiesDenyButtonAttentionClick'"}
+{"logLevel":"debug","message":"Found Pop up Region in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.clickAddAnAdult' and 'StepImplementation.clickAddAnAdult'"}
+{"logLevel":"debug","message":"Found Add An Adult For The Flight in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.clickBookAFlight' and 'StepImplementation.clickBookAFlight'"}
+{"logLevel":"debug","message":"Found Book A Flight Page in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.clickEcoFlight' and 'StepImplementation.clickEcoFlight'"}
+{"logLevel":"debug","message":"Found Select Eco Flight in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.clickFrom' and 'StepImplementation.clickFrom'"}
+{"logLevel":"debug","message":"Found Select From Option in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.clickOneWay' and 'StepImplementation.clickOneWay'"}
+{"logLevel":"debug","message":"Found Click One Way Option in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.clickTo' and 'StepImplementation.clickTo'"}
+{"logLevel":"debug","message":"Found Select To Option in current project scope."}
+{"logLevel":"debug","message":"Scanning packages for hooks"}
+{"logLevel":"debug","message":"Scanned steps (using static parsing + reflections): "}
+{"logLevel":"debug","message":"\tClick One Way Option : public void clickOneWay()"}
+{"logLevel":"debug","message":"\tSelect From Option : public void clickFrom()"}
+{"logLevel":"debug","message":"\tSearch {} And Select Them For To Option : public void clickSearchAreaAndSendKeysItemAndSelectItemToEsb(String esb)"}
+{"logLevel":"debug","message":"\tAdd An Adult For The Flight : public void clickAddAnAdult()"}
+{"logLevel":"debug","message":"\tSearch {} And Select Them For From Option : public void clickSearchAreaAndSendKeysItemAndSelectItemToSaw(String saw)"}
+{"logLevel":"debug","message":"\tSelect First List To Flight's List : public void clickFirstFlight()"}
+{"logLevel":"debug","message":"\tAnd Click Continue : public void clickContinue()"}
+{"logLevel":"debug","message":"\tBook A Flight Page : public void clickBookAFlight()"}
+{"logLevel":"debug","message":"\tSearch A Flight With Your Selections : public void clickSearchAFlight()"}
+{"logLevel":"debug","message":"\tPick A Day For The Flight : public void clickCalendarToPickADay()"}
+{"logLevel":"debug","message":"\tSelect Eco Flight : public void clickEcoFlight()"}
+{"logLevel":"debug","message":"\tSelect To Option : public void clickTo()"}
+{"logLevel":"debug","message":"\tPop up Region : public void acceptCookiesDenyButtonAttentionClick()"}
+Haz 16, 2021 4:01:28 PM io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
+INFO: Detected dialect: W3C
+{"logLevel":"debug","message":"Executing 'Pop up Region' using 'class StepImplementation.acceptCookiesDenyButtonAttentionClick"}
+{"logLevel":"debug","message":"Executing 'Book A Flight Page' using 'class StepImplementation.clickBookAFlight"}
+{"logLevel":"debug","message":"Executing 'Click One Way Option' using 'class StepImplementation.clickOneWay"}
+{"logLevel":"debug","message":"Executing 'Select From Option' using 'class StepImplementation.clickFrom"}
+{"logLevel":"debug","message":"Executing 'Search {} And Select Them For From Option' using 'class StepImplementation.clickSearchAreaAndSendKeysItemAndSelectItemToSaw"}
+{"logLevel":"debug","message":"Executing 'Select To Option' using 'class StepImplementation.clickTo"}
+{"logLevel":"debug","message":"Executing 'Search {} And Select Them For To Option' using 'class StepImplementation.clickSearchAreaAndSendKeysItemAndSelectItemToEsb"}
+{"logLevel":"debug","message":"Executing 'Pick A Day For The Flight' using 'class StepImplementation.clickCalendarToPickADay"}
+{"logLevel":"debug","message":"Executing 'Add An Adult For The Flight' using 'class StepImplementation.clickAddAnAdult"}
+{"logLevel":"debug","message":"Executing 'Search A Flight With Your Selections' using 'class StepImplementation.clickSearchAFlight"}
+{"logLevel":"debug","message":"Executing 'Select First List To Flight's List' using 'class StepImplementation.clickFirstFlight"}
+{"logLevel":"debug","message":"Executing 'Select Eco Flight' using 'class StepImplementation.clickEcoFlight"}
+{"logLevel":"debug","message":"Executing 'And Click Continue' using 'class StepImplementation.clickContinue"}
+{"logLevel":"debug","message":"Killing Java runner..."}
+{"logLevel":"debug","message":"Stopping execution pool..."}
+{"logLevel":"debug","message":"Shutting down grpc server..."}
+{"logLevel":"debug","message":"Runner killed gracefully."}
